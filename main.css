@@ -1,6 +1,6 @@
 html, body {
   margin: 0;
-  padding: 0;
+  padding:0;
   font-size: 100%;
   line-height: 1.5;
 }
@@ -28,4 +28,68 @@ body {
   font-family: 'Crimson Text', serif;
   font-size: 1.5rem;
   font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px 5px;
+  font-family: Arial;
+  font-size: 1rem;
+  text-align: right;
+}
+
+li {
+  display: inline;
+  padding: 2.5px;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 5px black;
+  color: rgba(255,255,255,.7);
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+@media (max-width: 1980px) and (max-height: 1080px){
+  ul {
+    font-size: 0.9vmax;
+  }
+  .quote {
+    font-size: 2.2vmax;
+  }
+  .author {
+    font-size: 1.5vmax;
+  }
+  .wrapper {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1024px) and (max-height: 1366px){
+  ul {
+    font-size: 1.5vmax;
+  }
+  .qutoe {
+    font-size: 2.8vmax;
+  }
+  .author {
+    font-size: 2.1vmax;
+  }
+}
+
+@media (max-width: 400px) and (max-height: 600px){
+  ul {
+    font-size: 2vmax;
+  }
+  .qutoe {
+    font-size: 2.8vmax;
+  }
+  .author {
+    font-size: 2.1vmax;
+  }
 }
